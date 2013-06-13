@@ -1,8 +1,8 @@
 {
-	"name": "gallery/exif",
+	"name": "gallery/feed",
 	"type": "phpbb3-extension",
-	"description": "Exif Extension for phpBB Gallery",
-	"homepage": "https://github.com/nickvergessen/phpbb3-ext-gallery-exif",
+	"description": "Feed Extension for phpBB Gallery",
+	"homepage": "https://github.com/nickvergessen/phpbb3-ext-gallery-feed",
 	"version": "0.1.0",
 	"time": "2013-06-05 01:01:01",
 	"licence": "GPL-2.0",
@@ -18,6 +18,6 @@
 		"phpbb": ">=3.1-dev"
 	},
 	"extra": {
-		"display-name": "phpBB Gallery Exif Extension"
+		"display-name": "phpBB Gallery Feed Extension"
 	}
 }
