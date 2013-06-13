@@ -1,0 +1,11 @@
+gallery_feed_index:
+    pattern: /gallery/feed
+    defaults: { _controller: gallery.feed.controller:index }
+gallery_feed_users:
+    pattern: /gallery/feed/users
+    defaults: { _controller: gallery.feed.controller:index }
+gallery_feed_album:
+    pattern: /gallery/feed/{album_id}
+    defaults: { _controller: gallery.feed.controller:album }
+    requirements:
+        album_id: \d+
